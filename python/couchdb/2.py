@@ -8,4 +8,4 @@ except:
 
 print db.name
 
-del server[db.name]
+server.delete(db.name)
